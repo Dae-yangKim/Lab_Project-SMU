@@ -13,7 +13,6 @@
        식물 생장 데이터 (nia-50)을 s3브라우저를 통해서 가져와 , 각 식물들의 데이터에 대해서 eda를 진행
 
          <b>Introduction</b>
-         
            - 1. 도구준비
            - 2. S3연결
            - 3. Nia-50 Data EDA
@@ -31,9 +30,9 @@
 
         _EDA.ipynb 참고_
 
-    - 3. Sliding Window
+  - 3. Sliding Window
 
-         시계열 데이터에서는 , 시간을 슬라이딩 해주면서 각 시점때의 값을 계산해서 <mark>데이터의 양을 늘려줄 수 있다.</mark>
-         각 ClassId 별로 나눠서 새로운 csv파일을 만들어 데이터를 늘려주는 작업을 진행
+       시계열 데이터에서는 , 시간을 슬라이딩 해주면서 각 시점때의 값을 계산해서 <mark>데이터의 양을 늘려줄 수 있다.</mark>
+       각 ClassId 별로 나눠서 새로운 csv파일을 만들어 데이터를 늘려주는 작업을 진행
 
-         _SlidingWindowDataProcessing.ipynb 참고_
+        _SlidingWindowDataProcessing.ipynb 참고_
